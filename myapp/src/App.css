@@ -1,12 +1,12 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: lightcoral;
+  background-color: rgb(244, 231, 241);
   font-family: 'Arial', sans-serif;
 }
 .card {
   text-align: center;
-  background-color:darkcyan;
+  background-color:rgb(171, 237, 237);
   margin: 5% auto;
   /* margin-top: 5%; */
   width: 80%;
