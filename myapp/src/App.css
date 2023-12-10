@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: lightcoral;
+  font-family: 'Arial', sans-serif;
+}
+.card {
+  text-align: center;
+  background-color:darkcyan;
+  margin: 5% auto;
+  /* margin-top: 5%; */
+  width: 80%;
+  max-width: 400px;
+  border-radius: 10px;
+  padding: 2%;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h1 {
+  margin: 0;
+  padding: 0;
+  font-family:cursive;
+}
+
+.card input {
+  display: block;
+  width: 100%;
+  margin: 50px 0 ;
+  margin-bottom: 20px;
+  padding: 10px;
+
+  font-size: large;
+  border-radius: 5px;
+  border-color:black;
+  outline: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+.add,
+.delete {
+  display: inline-block;
+  /* padding: 2.3%;
+  margin: 1%; */
+  padding: 12px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+} 
+
+.add:hover{
+  background-color: black;
+  color: white;
+}
+
+
+.delete:hover{
+  background-color: black;
+  color: white;
+}
+#submit{
+  display: inline-block;
+  width: 30%;
+
+  padding: 10px;
+  font-weight: bold;
+  margin: 10px 0;
+
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+#submit:hover {
+  background-color: black;
+  color: white;
+ 
+}
+
+.submitted-items h2{
+  margin-left: 20px;
+}
+.submitted-items h2 ,ul{
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 50%;
+  }
+}
